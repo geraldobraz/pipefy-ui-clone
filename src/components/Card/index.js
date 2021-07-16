@@ -1,14 +1,23 @@
 import React from 'react';
 import { Container,Label } from './styles';
+import { useDrag } from 'react-dnd'
 
-const Card = () => {
+const Card = ({ data }) => {
+  const [{ isDragging }, dragRef] = useDrag({ 
+    type: 'CARD',
+    collect: monitor => ({
+      isDragging: monitor.isDragging(),
+    }),
+  });
+
   return (
-    <Container>
+    <Container ref={dragRef} isDragging={isDragging}>
       <header>
-        <Label color="#7159c1" />
+        {data.labels.map(label => <Label color={label} />)}
       </header>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <img src="https://avatars.dicebear.com/api/male/avatar-1.svg" alt="avatar" />
+      <p>{data.content}</p>
+      
+      {data.user && <img src={data.user} alt="avatar" />}
     </Container>
   )
 }
