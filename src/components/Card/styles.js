@@ -30,11 +30,11 @@ export const Container = styled.div`
   }
 
   ${props => props.isDragging && css`
-    cursor: grabbing;
     border: 2px dashed rgba(0, 0, 0, 0.2);
     border-radius: 0;
     background: transparent;
     box-shadow: none;
+    cursor: grabbing;
 
     p, img, header {
       opacity: 0;
