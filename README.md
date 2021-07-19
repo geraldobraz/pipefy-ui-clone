@@ -6,19 +6,6 @@
 *A repository of UI clones from different popular websites. The main purpose of this repo is to learn new css techniques and also how popular websites build their ui. Most of the inside projects are ui only with some logic.*
 
 
-## Table of contents
-<!--ts-->
-   * [Overview](#Overview)
-   * [Table of contents](#table-of-contents)
-   * [Getting Started](#🚀-getting-started)
-      * [Prerequisites](#🚨-prerequisites)
-      * [Installing dependencies](#📥-installing-dependencies)
-      * [Running application](#🏎-running-application)
-   * [Screenshots](#📷-screenshots)
-   * [Built With](#🛠-built-with)
-   * [Author](#🎖-author)
-<!--te-->
-
 ## 🚀 Getting Started
 
 ### 🚨 Prerequisites
@@ -78,7 +65,7 @@ yarn start
 ## 📷 Screenshots
 - Pipefy Clone
 <p align="center">
-    <!-- <img src="frontend/.github/calendar-view.png"> -->
+    <img src=".github/pipefy-clone.gif">
     <!-- <img src="frontend/.github/dialog-view.png"> -->
 </p>
 

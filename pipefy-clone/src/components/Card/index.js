@@ -1,6 +1,6 @@
 import React, { useRef, useContext } from 'react';
 import { Container,Label } from './styles';
-import { useDrag, useDrop } from 'react-dnd'
+import { useDrag, useDrop } from 'react-dnd';
 import BoardContext from '../Board/context';
 
 const Card = ({ data, index, listIndex }) => {
