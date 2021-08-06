@@ -40,5 +40,4 @@ export default createGlobalStyle`
  
     --rocketseat: #6633cc;
   }
-
 `;
