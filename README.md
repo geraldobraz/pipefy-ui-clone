@@ -66,7 +66,10 @@ yarn start
 - Pipefy Clone
 <p align="center">
     <img src=".github/pipefy-clone.gif">
-    <!-- <img src="frontend/.github/dialog-view.png"> -->
+</p>
+- Discord Clone
+<p align="center">
+    <img src=".github/discord-clone.png">
 </p>
 
 ## 🛠 Built With
